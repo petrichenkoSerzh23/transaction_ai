@@ -33,7 +33,7 @@ Thumbs.db
 # =========================
 data/input/*
 !data/input/.gitkeep
-
+data
 data/output/*
 !data/output/.gitkeep
 

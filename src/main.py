@@ -17,6 +17,11 @@ from data_loader import (
 )
 
 OUTPUT_DIR = Path("data/output")
+
+
+def ensure_output_dir():
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 def main():
     print("🚀 Transaction AI starting...\n")
 

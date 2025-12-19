@@ -1,3 +1,5 @@
+from pathlib import Path
+
 _output_dir_cleared = False
 
 def clear_output_dir(output_dir: Path):
