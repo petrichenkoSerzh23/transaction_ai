@@ -23,19 +23,21 @@
 
 ## Структура проекта
 
+```
 transaction_ai/
 ├── data/
-│ ├── input/ # Входные CSV
-│ └── output/ # Результаты анализа
+│   ├── input/        # Входные CSV
+│   └── output/       # Результаты анализа
 ├── src/
-│ ├── data_loader.py
-│ ├── processor.py
-│ ├── ai_client.py
-│ ├── prompts.py
-│ └── main.py
+│   ├── data_loader.py
+│   ├── processor.py
+│   ├── ai_client.py
+│   ├── prompts.py
+│   └── main.py
 ├── .env
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
