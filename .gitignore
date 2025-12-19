@@ -1,0 +1,53 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.env
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data files
+# =========================
+data/input/*
+!data/input/.gitkeep
+
+data/output/*
+!data/output/.gitkeep
+
+# Temporary / lock files
+*.csv#
+*.lock
+
+# =========================
+# Notebooks (if added later)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# AI / Secrets
+# =========================
+*.key
+*.pem
